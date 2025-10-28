@@ -1,8 +1,8 @@
 'use client';
 
-import ProgramPage from '@/app/(components)/home/sections/ProgramDetailPage';
-import ApplyModal from '@/app/(components)/ui/ApplyModal';
-import Button from '@/app/(components)/ui/Button';
+import ProgramPage from '@/components/home/sections/ProgramDetailPage';
+import ApplyModal from '@/components/ui/ApplyModal';
+import Button from '@/components/ui/Button';
 import BacklogsIcon from '@/public/home/BacklogsIcon';
 import CreditsIcon from '@/public/home/CreditsIcon';
 import GreIcon from '@/public/home/GreIcon';

@@ -2,14 +2,10 @@
 
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
-import { Header } from './(components)/layout/Header';
-import { Footer } from './(components)/layout/Footer';
-import EnrollmentModal from './(components)/ui/EnrollmentModal';
 import React, { useEffect, useState } from 'react';
-import AnimatedContent from './(components)/animation/animatedcontent/AnimatedContent';
-// import { useEffect, useState } from 'react';
-// import Header from './(components)/layout/Header';
-// import Footer from './(components)/layout/Footer';
+import { Header } from '@/components/layout/Header';
+import AnimatedContent from '@/components/animation/animatedcontent/AnimatedContent';
+import { Footer } from '@/components/layout/Footer';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -66,15 +62,14 @@ export default function RootLayout({ children }) {
           // scale={1.1}
           // threshold={0.2}
           // delay={0.3}
-          distance={80}        // how far it travels before settling
+          distance={80} // how far it travels before settling
           direction="vertical" // ensures it moves up/down
-          reverse={false}       // true = from bottom → top
-          duration={1}         // animation speed
-          ease="power3.out"    // smooth easing
-          threshold={0.2}      // when to trigger
+          reverse={false} // true = from bottom → top
+          duration={1} // animation speed
+          ease="power3.out" // smooth easing
+          threshold={0.2} // when to trigger
           delay={0}
         >
-
           <Header />
         </AnimatedContent>
 

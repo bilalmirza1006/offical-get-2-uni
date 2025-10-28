@@ -1,13 +1,12 @@
 // 'use client';
 
-import ChooseUs from '@/app/(components)/about/sections/ChooseUs';
-import CountriesWeCover from '@/app/(components)/about/sections/CountriesWeCover';
-import CTABanner from '@/app/(components)/about/sections/CTABanner';
-import Hero from '@/app/(components)/about/sections/Hero';
-import OurStory from '@/app/(components)/about/sections/OurStory';
-import WhatYouCanDo from '@/app/(components)/about/sections/WhatYouCanDo';
-import FaqSection from '@/app/(components)/home/sections/Faqs';
-import ScrollingMarquee from '@/app/(components)/home/sections/ScrollingMarquee';
+import ChooseUs from '@/components/about/sections/ChooseUs';
+import CountriesWeCover from '@/components/about/sections/CountriesWeCover';
+import Hero from '@/components/about/sections/Hero';
+import OurStory from '@/components/about/sections/OurStory';
+import WhatYouCanDo from '@/components/about/sections/WhatYouCanDo';
+import FaqSection from '@/components/home/sections/Faqs';
+import ScrollingMarquee from '@/components/home/sections/ScrollingMarquee';
 import React from 'react';
 
 const page = () => {

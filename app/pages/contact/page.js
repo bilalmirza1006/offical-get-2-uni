@@ -1,11 +1,11 @@
 // 'use client';
 
+import CountriesWeCover from '@/components/about/sections/CountriesWeCover';
+import Hero from '@/components/about/sections/Hero';
+import ContactUsForm from '@/components/contact/sections/ContactUsForm';
+import FaqSection from '@/components/home/sections/Faqs';
+import ScrollingMarquee from '@/components/home/sections/ScrollingMarquee';
 import React from 'react';
-import Hero from '@/app/(components)/contact/sections/Hero';
-import ScrollingMarquee from '@/app/(components)/home/sections/ScrollingMarquee';
-import ContactUsForm from '@/app/(components)/contact/sections/ContactUsForm';
-import CountriesWeCover from '@/app/(components)/about/sections/CountriesWeCover';
-import FaqSection from '@/app/(components)/home/sections/Faqs';
 
 const page = () => {
   return (

@@ -9,8 +9,8 @@ import PrivateIcon from '@/public/home/PrivateIcon';
 import WorldRankIcon from '@/public/home/WorldRankIcon';
 import BacklogsIcon from '@/public/home/BacklogsIcon';
 import RankStar from '@/public/home/RankStar';
-import Button from '@/app/(components)/ui/Button';
-import InstantFindPrograms from '@/app/(components)/home/sections/InstantFind/InstantFindPrograms';
+import Button from '@/components/ui/Button';
+import InstantFindPrograms from '@/components/home/sections/InstantFind/InstantFindPrograms';
 
 const page = ({ params }) => {
   const { id } = params;

@@ -1,7 +1,8 @@
 // 'use client';
 
-import ProgramsList from '@/app/(components)/home/sections/UniversitiesLayout/ProgramsList';
-import Button from '@/app/(components)/ui/Button';
+import ProgramPage from '@/components/home/sections/ProgramDetailPage';
+import Button from '@/components/ui/Button';
+
 import BacklogsIcon from '@/public/home/BacklogsIcon';
 import CreditsIcon from '@/public/home/CreditsIcon';
 import GreIcon from '@/public/home/GreIcon';
