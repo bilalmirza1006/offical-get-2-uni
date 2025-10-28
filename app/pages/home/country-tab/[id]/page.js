@@ -1,7 +1,7 @@
 'use client';
 
-import ProgramsListLayout from '@/app/(components)/home/sections/CountriesLaout/ProgramsListLayout';
-import Button from '@/app/(components)/ui/Button';
+import ProgramsListLayout from '@/components/home/sections/CountriesLaout/ProgramsListLayout';
+import Button from '@/components/ui/Button';
 import BacklogsIcon from '@/public/home/BacklogsIcon';
 import CreditsIcon from '@/public/home/CreditsIcon';
 import GreIcon from '@/public/home/GreIcon';

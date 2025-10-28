@@ -1,8 +1,7 @@
-import { Header } from '../(components)/layout/Header';
-import HeroSection from '../(components)/home/sections/HeroSection';
-import ScrollingMarquee from '../(components)/home/sections/ScrollingMarquee';
-import ExploreProgram from '../(components)/home/sections/ExploreProgram';
-import FaqSection from '../(components)/home/sections/Faqs';
+import ExploreProgram from '@/components/home/sections/ExploreProgram';
+import FaqSection from '@/components/home/sections/Faqs';
+import HeroSection from '@/components/home/sections/HeroSection';
+import ScrollingMarquee from '@/components/home/sections/ScrollingMarquee';
 
 export default function HomeSections() {
   return (

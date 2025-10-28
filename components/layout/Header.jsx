@@ -1,10 +1,10 @@
 // app/(components)/layout/Header.tsx
-"use client";
+'use client';
 
-import { Home, Info, LogIn, Menu, MessageCircle, X } from "lucide-react";
-import Button from "../ui/Button";
-import { useState } from "react";
-import Link from "next/link";
+import { Home, Info, LogIn, Menu, MessageCircle, X } from 'lucide-react';
+import Button from '../ui/Button';
+import { useState } from 'react';
+import Link from 'next/link';
 
 // import { Button } from "@/app/(components)/ui/Button";
 
@@ -33,13 +33,13 @@ export const Header = () => {
             Home
           </Link>
           <Link
-            href="/about"
+            href="/pages/about"
             className="font-roboto font-semibold text-sm leading-5 px-2.5 py-4.5 text-Primarytext hover:bg-[#F7F7F7] hover:rounded-[12px]"
           >
             About Us
           </Link>
           <Link
-            href="/contact"
+            href="/pages/contact"
             className="font-roboto font-semibold text-sm leading-5 px-2.5 py-4.5 text-Primarytext hover:bg-[#F7F7F7] hover:rounded-[12px]"
           >
             Contact Us
@@ -52,15 +52,13 @@ export const Header = () => {
             text="Sign Up"
             bg="bg-none"
             color="text-black"
-            cn={
-              "hover:underline hover:bg-primarycolor hover:text-white !px-2 md:!px-6 "
-            }
+            cn={'hover:underline hover:bg-primarycolor hover:text-white !px-2 md:!px-6 '}
           />
           <Button
             text="Login / Register"
             bg="bg-primarycolor "
             color="text-white "
-            cn={"!px-2 md:!px-6 "}
+            cn={'!px-2 md:!px-6 '}
           />
           {/* <button className="font-roboto font-medium text-sm leading-5 text-primary hover:underline">Sign up</button>
                     <button className="bg-[#C8102E] text-white px-4 py-2 rounded-md hover:bg-[#a20d26]">
@@ -71,15 +69,17 @@ export const Header = () => {
 
       {/* Background Overlay (click to close) */}
       <div
-        className={`fixed inset-0 bg-black/30 backdrop-blur-sm transition-opacity duration-300 md:hidden ${menuOpen ? "opacity-100 visible" : "opacity-0 invisible"
-          }`}
+        className={`fixed inset-0 bg-black/30 backdrop-blur-sm transition-opacity duration-300 md:hidden ${
+          menuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
+        }`}
         onClick={() => setMenuOpen(false)}
       ></div>
 
       {/* Slide-in Mobile Menu (from left) */}
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-white shadow-lg transform transition-transform duration-300 ease-in-out md:hidden z-50 ${menuOpen ? "translate-x-0" : "-translate-x-full"
-          }`}
+        className={`fixed top-0 left-0 h-full w-64 bg-white shadow-lg transform transition-transform duration-300 ease-in-out md:hidden z-50 ${
+          menuOpen ? 'translate-x-0' : '-translate-x-full'
+        }`}
       >
         <div className="flex justify-between items-center px-4 py-4 border-b border-gray-200">
           <img src="/logo.png" alt="Logo" className="h-8" />
@@ -101,7 +101,7 @@ export const Header = () => {
             Home
           </Link>
           <Link
-            href="/about"
+            href="/pages/about"
             className="flex items-center gap-6 py-4 px-6 text-Primarytext font-inter text-lg font-medium leading-5 hover:text-[#C8102E]"
             onClick={() => setMenuOpen(false)}
           >
@@ -109,7 +109,7 @@ export const Header = () => {
             About Us
           </Link>
           <Link
-            href="/contact"
+            href="/pages/contact"
             className="flex items-center gap-6 py-4 px-6 text-Primarytext font-inter text-lg font-medium leading-5 hover:text-[#C8102E]"
             onClick={() => setMenuOpen(false)}
           >
